@@ -10,6 +10,9 @@ All audios in this repository were pulled from the below links and are CC licens
 
 ---
 
+The Open Speech Repository
+http://www.voiptroubleshooter.com/open_speech/index.html
+
 Alphabet Letters Soundpack by dersuperanton
 https://freesound.org/people/dersuperanton/packs/24677/
 
