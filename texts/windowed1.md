@@ -1,8 +1,11 @@
-# Janelamento
-After slicing the signal into frames, we apply a window function such as the Hamming window to each frame. A Hamming window has the following form:
+## Janelamento
 
-$ w[n]=0.54−0.46cos(2πnN−1) $
+Após fragmentar o sinal é necessário aplicar sobre cada frame uma função de janela. Normalmente utiliza-se a janela Hamming pois ela geralmente apresenta melhores resultados para processamento de voz, porém pode-se escolher qualquer outro tipo de janela que cumpra a mesma função.
 
-where, $ 0≤n≤N−1 $, N is the window length. Plotting the previous equation yields the following plot:
+A janela Hamming é definida pela seguinte equação:
 
-There are several reasons why we need to apply a window function to the frames, notably to counteract the assumption made by the FFT that the data is infinite and to reduce spectral leakage.
+$ w[n] = 0.54 − 0.46 cos ( \frac{2πn}{N − 1} )\ $
+
+onde, $ 0≤n≤N−1 $, $N$ é a largura da janela em amostras. 
+
+Plotando a equação obtem-se o seguinte gráfico:
