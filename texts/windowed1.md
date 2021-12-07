@@ -1,4 +1,4 @@
-# Enjanelamento
+# Janelamento
 After slicing the signal into frames, we apply a window function such as the Hamming window to each frame. A Hamming window has the following form:
 
 $ w[n]=0.54−0.46cos(2πnN−1) $
